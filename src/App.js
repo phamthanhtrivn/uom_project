@@ -1,8 +1,9 @@
+import AllRoute from "./components/AllRoute";
 
 function App() {
   return (
     <>
-      <h1>React App</h1>
+      <AllRoute />
     </>
   );
 }
