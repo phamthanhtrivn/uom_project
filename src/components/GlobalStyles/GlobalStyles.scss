@@ -11,6 +11,11 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
 html {
   font-size: 62.5%;
 }
@@ -18,4 +23,48 @@ html {
 body {
   font-family: "Roboto", "sans-serif";
   font-size: 1.6rem;
+  margin: 0;
+}
+
+// Responsive
+.container {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+@media (max-width: 475px) {
+  .container {
+    width: 100%;
+  }
 }

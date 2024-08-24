@@ -1,0 +1,66 @@
+@use "../../scss/mixins" as mixin; 
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+
+  &__logo {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__menu {
+    font-weight: bold;
+
+    ul {
+      display: flex;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+
+      li a {
+        padding: 20px;
+
+        &:hover {
+          background-color: #ebebeb;
+        }
+      }
+    }
+
+    @include mixin.reponsive(lg) {
+      display: none;
+    }
+  }
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+
+    .anticon {
+      margin-left: 20px;
+    }
+
+    .anticon-menu {
+      display: none;
+
+      @include mixin.reponsive(lg) {
+        display: block;
+      }
+    }
+  }
+}
