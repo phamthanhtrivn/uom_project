@@ -5,12 +5,12 @@
   top: 0;
   background-color: #fff;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  z-index: 999;
 
   &__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
   }
 
   &__logo {
@@ -20,6 +20,7 @@
 
     img {
       width: 100%;
+      height: auto;
     }
   }
 
@@ -33,6 +34,7 @@
       padding: 0;
 
       li a {
+        display: inline-block;
         padding: 20px;
 
         &:hover {
@@ -52,7 +54,12 @@
     font-size: 20px;
 
     .anticon {
-      margin-left: 20px;
+      display: inline-block;
+      padding: 20px;
+
+      &:hover {
+        background-color: #ebebeb;
+      }
     }
 
     .anticon-menu {
@@ -60,7 +67,62 @@
 
       @include mixin.reponsive(lg) {
         display: block;
+        cursor: pointer;
       }
     }
   }
+
+  .display-none {
+    display: none;
+  }
+
+  .overplay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .menu-mobile {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 320px;
+    max-width: 100%;
+    background-color: #fff;
+
+    .anticon-close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 26px;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      margin-top: 40px;
+      width: 100%;
+
+      li {
+
+        a {
+          font-weight: bold;
+          display: block;
+          width: 100%;
+          padding: 20px;
+
+          &:hover {
+            background-color: #ebebeb;
+          }
+        }
+      } 
+    }
+  }
+
+
 }

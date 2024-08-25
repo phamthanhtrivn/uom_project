@@ -1,8 +1,15 @@
 import { NavLink } from 'react-router-dom';
-import { UserOutlined, ShoppingCartOutlined, MenuOutlined } from '@ant-design/icons';
+import { UserOutlined, ShoppingCartOutlined, MenuOutlined, CloseOutlined } from '@ant-design/icons';
 import './Header.scss';
+import { useState } from 'react';
 
 function Header() {
+  const [openMenu, setOpenMenu] = useState(false);
+
+  const handleClickMenu = () => {
+    setOpenMenu(!openMenu);
+  }
+
   return (
     <>
       <div className="header">
@@ -39,7 +46,29 @@ function Header() {
               <NavLink to="/cart">
                 <ShoppingCartOutlined />
               </NavLink>
-              <MenuOutlined />
+              <MenuOutlined onClick={handleClickMenu}/>
+            </div>
+
+            <div className={openMenu ? "overplay": "display-none"} onClick={handleClickMenu}></div>
+            <div className={openMenu ? "menu-mobile": "display-none"}>
+              <CloseOutlined onClick={handleClickMenu}/>
+              <ul>
+                <li>
+                  <NavLink to="/" onClick={handleClickMenu}>Home</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/introduce" onClick={handleClickMenu}>Introduce</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/product" onClick={handleClickMenu}>Product</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/news" onClick={handleClickMenu}>News</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/contact" onClick={handleClickMenu}>Contact</NavLink>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
