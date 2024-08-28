@@ -12,7 +12,7 @@ function Header() {
 
   return (
     <>
-      <div className="header">
+      <header className="header">
         <div className="container">
           <div className="header__content">
             <div className="header__logo">
@@ -23,19 +23,19 @@ function Header() {
             <div className="header__menu">
               <ul>
                 <li>
-                  <NavLink to="/">Home</NavLink>
+                  <NavLink to="/">TRANG CHỦ</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/introduce">Introduce</NavLink>
+                  <NavLink to="/introduce">GIỚI THIỆU</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/product">Product</NavLink>
+                  <NavLink to="/product">SẢN PHẨM</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/news">News</NavLink>
+                  <NavLink to="/news">TIN TỨC</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/contact">Contact</NavLink>
+                  <NavLink to="/contact">LIÊN HỆ</NavLink>
                 </li>
               </ul>
             </div>
@@ -54,25 +54,25 @@ function Header() {
               <CloseOutlined onClick={handleClickMenu}/>
               <ul>
                 <li>
-                  <NavLink to="/" onClick={handleClickMenu}>Home</NavLink>
+                  <NavLink to="/" onClick={handleClickMenu}>TRANG CHỦ</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/introduce" onClick={handleClickMenu}>Introduce</NavLink>
+                  <NavLink to="/introduce" onClick={handleClickMenu}>GIỚI THIỆU</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/product" onClick={handleClickMenu}>Product</NavLink>
+                  <NavLink to="/product" onClick={handleClickMenu}>SẢN PHẨM</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/news" onClick={handleClickMenu}>News</NavLink>
+                  <NavLink to="/news" onClick={handleClickMenu}>TIN TỨC</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/contact" onClick={handleClickMenu}>Contact</NavLink>
+                  <NavLink to="/contact" onClick={handleClickMenu}>LIÊN HỆ</NavLink>
                 </li>
               </ul>
             </div>
           </div>
         </div>
-      </div>
+      </header>
     </>
   );
 }
