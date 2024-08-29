@@ -42,7 +42,7 @@ function Footer() {
                   <p>Giới thiệu</p>
                 </li>
                 <li>
-                  <parent>Sản phẩm</parent>
+                  <p>Sản phẩm</p>
                 </li>
                 <li>
                   <p>Tin tức</p>
@@ -85,7 +85,7 @@ function Footer() {
                     style={{ border: 0 }}
                     allowFullScreen=""
                     loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
+                    referrerPolicy="no-referrer-when-downgrade" // or "strict-origin-when-cross-origin"
                   ></iframe>
                 </li>
               </ul>
@@ -93,7 +93,7 @@ function Footer() {
           </div>
         </div>
       </footer>
-      <div className="footer__bottom">Copyright © 2024 Web4s. All rights reserved.</div>
+      <div className="footer__bottom">Copyright &copy; 2024 Web4s. All rights reserved.</div>
     </>
   );
 }
