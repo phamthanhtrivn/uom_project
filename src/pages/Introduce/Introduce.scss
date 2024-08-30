@@ -1,0 +1,33 @@
+.introduce {
+  padding: 0 80px;
+  margin: 50px 0;
+
+  p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  &__title {
+    font-size: 28px;
+  }
+
+  &__desc {
+
+    &--item-1 {
+      font-weight: bold;
+    }
+    
+    &--social {
+      font-weight: bold;
+      
+      .anticon {
+        margin-left: 20px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  
+
+}
