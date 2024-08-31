@@ -68,3 +68,20 @@ body {
     width: 100%;
   }
 }
+
+// Components
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border: 1px solid var(--primary-color);
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: white;
+    color: var(--primary-color);
+  }
+}
