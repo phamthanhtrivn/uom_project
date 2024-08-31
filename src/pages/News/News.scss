@@ -10,20 +10,21 @@
 
   &__content {
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
-   
+    justify-content: center;
+    gap: 30px;
   }
 
   &__item {
     cursor: pointer;
-    width: 30%;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     border: 1px solid #ccc;
     border-radius: 10px;
+    width: calc(30% - 30px);
+    
 
     @include mixin.reponsive(xl) {
-      width: 45%;
+      width: calc(45% - 30px);;
     }
 
     @include mixin.reponsive(md) {
