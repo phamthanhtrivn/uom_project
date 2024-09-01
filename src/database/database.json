@@ -1,4 +1,214 @@
 {
+  "products": [
+    {
+      "id": 1,
+      "title": "Bình hoa nhỏ",
+      "description": "Bình hoa nhỏ bằng gốm sứ cao cấp, thiết kế tinh tế với họa tiết hoa văn cổ điển, màu sắc trang nhã, phù hợp để trang trí không gian sống và làm quà tặng ý nghĩa.",
+      "price": 350000,
+      "discountPercentage": 0.0,
+      "stock": 52,
+      "category": "Nội thất",
+      "images": [
+        "https://cdn1864.cdn-template-4s.com/media/product/shop-img26.jpg"
+      ],
+      "thumbnail": "https://cdn1864.cdn-template-4s.com/thumbs/product/shop-img26_thumb_500.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Ghế gỗ",
+      "description": "Ghế gỗ cao cấp, thiết kế tinh tế và chắc chắn, phù hợp với mọi không gian nội thất. Sản phẩm được làm từ gỗ tự nhiên, bền đẹp và thân thiện với môi trường. Ghế có màu sắc trang nhã và hoàn thiện tỉ mỉ, mang lại cảm giác ấm cúng và sang trọng.",
+      "price": 580000,
+      "discountPercentage": 0.0,
+      "stock": 37,
+      "category": "Nội thất",
+      "images": [
+        "https://cdn1864.cdn-template-4s.com/media/product/shop-img24.jpg"
+      ],
+      "thumbnail": "https://cdn1864.cdn-template-4s.com/thumbs/product/shop-img24_thumb_500.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Đồng hồ gỗ",
+      "description": "Đồng hồ gỗ sang trọng với thiết kế cổ điển, hoàn thiện tỉ mỉ từ chất liệu gỗ cao cấp, mang đến vẻ đẹp ấm áp và bền vững cho không gian sống. Mặt đồng hồ rõ ràng, kim chỉ chính xác, phù hợp làm quà tặng hoặc trang trí nội thất.",
+      "price": 320000,
+      "discountPercentage": 0.0,
+      "stock": 28,
+      "category": "Đồng hồ",
+      "images": [
+        "https://cdn1864.cdn-template-4s.com/media/product/shop-img1-1.png"
+      ],
+      "thumbnail": "https://cdn1864.cdn-template-4s.com/thumbs/product/shop-img1-1_thumb_500.png"
+    },
+    {
+      "id": 4,
+      "title": "Đồng hồ tròn đơn giản",
+      "description": "Đồng hồ tròn đơn giản, thiết kế tối giản với mặt số rõ ràng và dây đeo bền chắc. Màu sắc trang nhã, dễ dàng phối hợp với nhiều phong cách thời trang. Giá cạnh tranh, phù hợp với người yêu thích sự thanh lịch và tiện dụng.",
+      "price": 300000,
+      "discountPercentage": 0.0,
+      "stock": 75,
+      "category": "Đồng hồ",
+      "images": [
+        "https://cdn1864.cdn-template-4s.com/media/product/product-8.jpg"
+      ],
+      "thumbnail": "https://cdn1864.cdn-template-4s.com/thumbs/product/product-8_thumb_500.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Gấu bông",
+      "description": "Gấu bông mềm mại, cao 30cm, làm từ chất liệu bông cao cấp, an toàn cho trẻ em. Màu sắc dễ thương, thích hợp làm quà tặng. Sản phẩm kèm theo túi đựng xinh xắn.",
+      "price": 350000,
+      "discountPercentage": 17.0,
+      "stock": 45,
+      "category": "Đồ chơi",
+      "images": [
+        "https://cdn1864.cdn-template-4s.com/media/product/toy-1.png"
+      ],
+      "thumbnail": "https://cdn1864.cdn-template-4s.com/thumbs/product/toy-1_thumb_500.png"
+    },
+    {
+      "id": 6,
+      "title": "Đồng hồ treo tường bằng gỗ",
+      "description": "Đồng hồ treo tường bằng gỗ với thiết kế cổ điển, đường nét tinh xảo, và màu gỗ tự nhiên sang trọng. Chất liệu gỗ bền bỉ, cơ chế hoạt động chính xác. Phù hợp trang trí phòng khách, văn phòng, hoặc quán cà phê.",
+      "price": 310000,
+      "discountPercentage": 0.0,
+      "stock": 45,
+      "category": "Đng hồ",
+      "images": [
+        "https://cdn1864.cdn-template-4s.com/media/product/product-1.jpg"
+      ],
+      "thumbnail": "https://cdn1864.cdn-template-4s.com/thumbs/product/product-1_thumb_500.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Đèn ngủ",
+      "description": "Đèn ngủ này mang phong cách hiện đại với ánh sáng dịu nhẹ, thân đèn làm từ gỗ tự nhiên kết hợp chụp đèn vải tạo cảm giác ấm áp. Thiết kế nhỏ gọn, dễ dàng đặt ở bất kỳ vị trí nào trong phòng ngủ, tiết kiệm không gian. Phù hợp làm quà tặng hoặc trang trí cho phòng ngủ thêm phần sang trọng.",
+      "price": 450000,
+      "discountPercentage": 0.0,
+      "stock": 84,
+      "category": "Chiếu sáng",
+      "images": [
+        "https://cdn1864.cdn-template-4s.com/media/product/product-7.jpg"
+      ],
+      "thumbnail": "https://cdn1864.cdn-template-4s.com/thumbs/product/product-7_thumb_500.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Đèn sân vườn",
+      "description": "Đèn sân vườn tinh tế này kết hợp giữa thiết kế hiện đại và chất liệu bền bỉ, mang đến ánh sáng ấm áp và tiết kiệm năng lượng. Với khả năng chống thời tiết và lắp đặt dễ dàng, sản phẩm là lựa chọn lý tưởng để làm nổi bật không gian ngoài trời của bạn. Tạo điểm nhấn trang trí đồng thời nâng cao sự an toàn cho khu vườn của bạn.",
+      "price": 420000,
+      "discountPercentage": 0.0,
+      "stock": 91,
+      "category": "Chiếu sáng",
+      "images": [
+        "https://cdn1864.cdn-template-4s.com/media/product/shop-img13.jpg"
+      ],
+      "thumbnail": "https://cdn1864.cdn-template-4s.com/thumbs/product/shop-img13_thumb_500.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Đèn neon",
+      "description": "Đèn neon tạo điểm nhấn ấn tượng với ánh sáng rực rỡ và thiết kế hiện đại, lý tưởng cho việc trang trí không gian sống và làm việc. Được làm từ chất liệu bền và tiết kiệm năng lượng, đèn neon này không chỉ đẹp mắt mà còn thân thiện với môi trường. Với nhiều kiểu dáng và màu sắc đa dạng, sản phẩm là lựa chọn hoàn hảo để thêm phần nổi bật cho bất kỳ không gian nào.",
+      "price": 410000,
+      "discountPercentage": 0.0,
+      "stock": 62,
+      "category": "Chiếu sáng",
+      "images": [
+        "https://cdn1864.cdn-template-4s.com/media/product/shop-img27.jpg"
+      ],
+      "thumbnail": "https://cdn1864.cdn-template-4s.com/thumbs/product/shop-img27_thumb_500.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Bình thủy tinh",
+      "description": "Bình thủy tinh sang trọng với thiết kế tinh tế, thân bình trong suốt giúp tôn lên vẻ đẹp của hoa hoặc cây cảnh bên trong. Chất liệu thủy tinh cao cấp bền đẹp, dễ dàng vệ sinh và không ảnh hưởng đến chất lượng nước. Kích thước nhỏ gọn, lý tưởng để trang trí mọi không gian.",
+      "price": 330000,
+      "discountPercentage": 0.0,
+      "stock": 11,
+      "category": "Nội thất",
+      "images": [
+        "https://cdn1864.cdn-template-4s.com/media/product/shop-img9.jpg"
+      ],
+      "thumbnail": "https://cdn1864.cdn-template-4s.com/thumbs/product/shop-img9_thumb_500.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Đèn treo",
+      "description": "Đèn treo phong cách hiện đại với thiết kế tinh tế, ánh sáng dịu nhẹ tạo không gian ấm cúng. Chất liệu cao cấp, kiểu dáng sang trọng, dễ dàng kết hợp với nhiều phong cách nội thất. Hoàn hảo để làm điểm nhấn cho không gian sống hoặc làm việc.",
+      "price": 400000,
+      "discountPercentage": 0.0,
+      "stock": 69,
+      "category": "Nội thất",
+      "images": [
+        "https://cdn1864.cdn-template-4s.com/media/product/shop-img8.jpg"
+      ],
+      "thumbnail": "https://cdn1864.cdn-template-4s.com/thumbs/product/shop-img8_thumb_500.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Bình đựng nước",
+      "description": "Bình đựng nước thiết kế tinh tế, chất liệu thủy tinh cao cấp, có nắp đậy kín để tránh rò rỉ và giữ nước tươi mát lâu. Dung tích hợp lý cho nhu cầu sử dụng hàng ngày, phù hợp với cả văn phòng và gia đình.",
+      "price": 380000,
+      "discountPercentage": 0.0,
+      "stock": 34,
+      "category": "Phụ kiện",
+      "images": [
+        "https://cdn1864.cdn-template-4s.com/media/product/shop-img7.jpg"
+      ],
+      "thumbnail": "https://cdn1864.cdn-template-4s.com/thumbs/product/shop-img7_thumb_500.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Bàn cafe",
+      "description": "Bàn café này có thiết kế hiện đại với mặt bàn bằng gỗ tự nhiên và chân kim loại chắc chắn, mang lại sự kết hợp hoàn hảo giữa phong cách và chức năng. Kích thước nhỏ gọn, phù hợp cho không gian sống và văn phòng. Màu sắc thanh lịch và dễ dàng phối hợp với nhiều kiểu trang trí khác nhau.",
+      "price": 680000,
+      "discountPercentage": 0.0,
+      "stock": 29,
+      "category": "Nội thất",
+      "images": [
+        "https://cdn1864.cdn-template-4s.com/media/product/shop-img5.jpg"
+      ],
+      "thumbnail": "https://cdn1864.cdn-template-4s.com/thumbs/product/shop-img5_thumb_500.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Tủ đầu giường",
+      "description": "Tủ đầu giường gỗ tự nhiên với thiết kế hiện đại, trang nhã, mang đến sự tiện nghi và phong cách cho không gian ngủ của bạn. Kích thước compact và các ngăn kéo rộng rãi giúp lưu trữ đồ dùng gọn gàng. Sản phẩm hoàn thiện với lớp sơn chống trầy xước, bền đẹp theo thời gian.",
+      "price": 700000,
+      "discountPercentage": 0.0,
+      "stock": 75,
+      "category": "Nội thất",
+      "images": [
+        "https://cdn1864.cdn-template-4s.com/thumbs/product/shop-img3_thumb_500.jpg"
+      ],
+      "thumbnail": "https://cdn1864.cdn-template-4s.com/media/product/shop-img3.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Bình giữ nhiệt cà phê",
+      "description": "Bình giữ nhiệt cà phê kiểu dáng hiện đại với khả năng giữ nóng lên đến 8 giờ. Chất liệu inox cao cấp, bền bỉ và chống rò rỉ, đi kèm nắp đậy tiện lợi. Thiết kế nhỏ gọn, dễ dàng mang theo mọi nơi.",
+      "price": 350000,
+      "discountPercentage": 0.0,
+      "stock": 10,
+      "category": "Phụ kiện",
+      "images": [
+        "https://cdn1864.cdn-template-4s.com/media/product/shop-img2.jpg"
+      ],
+      "thumbnail": "https://cdn1864.cdn-template-4s.com/thumbs/product/shop-img2_thumb_500.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Đĩa xanh",
+      "description": "Đĩa xanh này có thiết kế tinh tế với màu xanh nhẹ nhàng, hoàn hảo để trang trí bàn ăn hoặc kệ trưng bày. Được làm từ chất liệu gốm sứ cao cấp, nó mang lại vẻ đẹp sang trọng và độ bền lâu dài. Kích thước vừa phải, phù hợp với nhiều phong cách ẩm thực và trang trí khác nhau.",
+      "price": 200000,
+      "discountPercentage": 0.0,
+      "stock": 82,
+      "category": "Phụ kiện",
+      "images": [
+        "https://cdn1864.cdn-template-4s.com/thumbs/product/shop-img1-1_thumb_500.jpg"
+      ],
+      "thumbnail": "https://cdn1864.cdn-template-4s.com/thumbs/product/shop-img1-1_thumb_500.jpg"
+    }
+  ],
   "news": [
     {
       "id": 1,

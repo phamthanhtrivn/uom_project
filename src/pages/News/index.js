@@ -20,7 +20,7 @@ function News() {
         <div className="container">
           <h1>Tin Tức</h1>
           <div className="news__content">
-            {dataNews ? (
+            {dataNews.length ? (
               <>
                 {dataNews.map((item, index) => (
                   <div className="news__item" key={index}>

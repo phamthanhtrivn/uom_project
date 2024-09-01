@@ -1,0 +1,186 @@
+@use '../../scss/mixins.scss' as mixin;
+
+.cart {
+  margin: 50px 0px;
+  padding: 0 50px;
+
+  .btn-delete {
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+
+    &:hover {
+      background-color: red;
+      color: white;
+    }
+
+    &-all {
+      border-radius: 5px;
+      background-color: red;
+      color: white;
+      border: none;
+
+      &:hover {
+        background-color: red;
+        color: white;
+      }
+    }
+  }
+
+  .deleteAll {
+    text-align: end;
+    margin-bottom: 20px;
+  }
+
+  &__header-title {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
+
+    &--mobile {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 10px;
+      display: none;
+    }
+
+    @include mixin.reponsive(md) {
+      display: none;
+
+      &--mobile {
+        display: block;
+      }
+    }
+  }
+
+  &__item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+    @include mixin.reponsive(md) {
+      display: none;
+    }
+
+    &--mobile {
+      border-bottom: 1px solid #ddd;
+      padding: 20px 0;
+      display: none;
+
+      @include mixin.reponsive(md) {
+        display: block;
+      }
+
+      .cart {
+        &__title {
+          display: flex;
+          align-items: start;
+          justify-content: space-between;
+        }
+
+        &__price {
+          width: 100%;
+          padding: 10px 0;
+        }
+
+        &__quantity {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+          padding: 10px 0;
+        }
+
+        &__line-total {
+          width: 100%;
+          padding: 10px 0;
+        }
+      }
+    }
+  }
+
+  &__image {
+    width: 100%;
+    aspect-ratio: 1/1;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__title {
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+
+    @include mixin.reponsive(lg) {
+      font-size: 16px;
+    }
+  }
+
+  &__price,
+  &__line-total {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  &__line-total {
+    position: relative;
+  }
+
+  .delete {
+    position: absolute;
+    top: -40px;
+    right: 10px;
+  }
+
+  &__total {
+    margin: 20px 0px;
+    text-align: end;
+
+    span:nth-child(1) {
+      font-size: 20px;
+      font-weight: bold;
+
+      @include mixin.reponsive(md) {
+        font-size: 18px;
+      }
+    }
+
+    span:nth-child(2) {
+      font-size: 22px;
+      margin-left: 20px;
+      font-weight: bold;
+      color: red;
+
+      @include mixin.reponsive(md) {
+        font-size: 18px;
+      }
+    }
+  }
+
+  &__payment {
+    text-align: end;
+
+    button {
+      color: #fff;
+      background-color: #141f46;
+      border: 1px solid #141f46;
+      padding: 10px;
+      font-weight: bold;
+      font-size: 22px;
+      width: 250px;
+
+      &:hover {
+        background-color: #fff;
+        color: #141f46;
+        transition: all 0.6s;
+      }
+    }
+  }
+}
