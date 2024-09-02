@@ -3,7 +3,7 @@ import Cart from '~/pages/Cart';
 import Contact from '~/pages/Contact';
 import Home from '~/pages/Home';
 import Introduce from '~/pages/Introduce';
-import Login from '~/pages/Login';
+import Account from '~/pages/Account';
 import News from '~/pages/News';
 import Product from '~/pages/Product';
 import ProductDetail from '~/pages/ProductDetail';
@@ -39,8 +39,8 @@ export const routes = [
         element: <Contact />,
       },
       {
-        path: '/login',
-        element: <Login />,
+        path: '/account',
+        element: <Account />,
       },
       {
         path: '/news',

@@ -1,0 +1,91 @@
+@use "../../scss/mixins" as mixin;
+
+.account {
+  margin: 50px 0;
+  padding: 0 50px;
+
+  &__title {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include mixin.reponsive(md) {
+      flex-direction: column;
+    }
+  }
+
+  &__login {
+    flex: 1;
+    padding: 30px 60px;
+
+    
+    
+
+    &--form {
+      display: flex;
+      flex-direction: column;
+
+      label {
+        color: #8a8a8f;
+        margin-bottom: 5px;
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      input {
+        border: 1px solid #e7e7e7;
+        max-width: 100%;
+        padding: 8px 10px;
+        border-radius: 3px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  &__register {
+    flex: 1;
+    padding: 50px;
+    border-left: 1px solid #ddd;
+
+    @include mixin.reponsive(md) {
+      border: none;
+      border-top: 1px solid #ddd;
+    }
+
+    &--form {
+      display: flex;
+      flex-direction: column;
+
+      label {
+        color: #8a8a8f;
+        margin-bottom: 10px;
+        display: inline-block;
+        width: 100%;
+      }
+
+      input {
+        border: 1px solid #e7e7e7;
+        max-width: 100%;
+        padding: 8px 10px;
+        border-radius: 3px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  .btn {
+
+    &-submit {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  }
+}

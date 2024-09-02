@@ -11,7 +11,7 @@ function HeaderIcons(props) {
   return (
     <>
       <div className="header__icon">
-        <NavLink to="/login">
+        <NavLink to="/account">
           <UserOutlined />
         </NavLink>
         <Badge count={cart.length}>
