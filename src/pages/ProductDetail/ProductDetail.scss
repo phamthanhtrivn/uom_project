@@ -1,0 +1,164 @@
+@use '../../scss/mixins' as mixin;
+
+.product-detail {
+  margin: 50px 0px;
+  padding: 0px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+
+  &__box {
+    flex: 1;
+
+    @include mixin.reponsive(lg) {
+      flex: none;
+    }
+  }
+
+  &__image {
+    aspect-ratio: 4/3;
+    padding: 40px;
+
+    @include mixin.reponsive(lg) {
+      width: calc(50% - 10px);
+    }
+
+    @include mixin.reponsive(sm) {
+      width: 100%;
+      padding: 0px;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__description {
+    padding: 10px;
+
+    @include mixin.reponsive(lg) {
+      width: calc(50% - 10px);
+    }
+
+    @include mixin.reponsive(sm) {
+      width: 100%;
+    }
+
+    .title {
+      font-size: 24px;
+
+      @include mixin.reponsive(lg) {
+        font-size: 22px;
+      }
+    }
+
+    .price {
+      font-size: 20px;
+      font-weight: bold;
+      color: red;
+
+      @include mixin.reponsive(lg) {
+        font-size: 18px;
+      }
+    }
+
+    .desc {
+      font-size: 15px;
+      margin: 35px 0px;
+      line-height: 26px;
+
+      @include mixin.reponsive(lg) {
+        font-size: 13px;
+      }
+    }
+  }
+
+  &__add-cart {
+    display: flex;
+    align-items: center;
+
+    .ant-input-number-input {
+      height: 40px;
+      font-size: 18px;
+
+      @include mixin.reponsive(lg) {
+        font-size: 16px;
+      }
+    }
+
+    .btn {
+      &-add {
+        margin-left: 20px;
+        font-weight: bold;
+      }
+      @include mixin.reponsive(lg) {
+        font-size: 12px;
+      }
+    }
+  }
+
+  &__advisory {
+    padding: 10px;
+    @include mixin.reponsive(lg) {
+      width: 100%;
+    }
+
+    &__box {
+      border: 1px solid #ddd;
+      padding: 10px 20px;
+      margin-bottom: 20px;
+
+      &__icon {
+        margin-right: 20px;
+        font-size: 20px;
+
+        @include mixin.reponsive(lg) {
+          font-size: 18px;
+        }
+      }
+
+      &__content {
+        &--title {
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+
+        &--desc {
+          font-size: 14px;
+          @include mixin.reponsive(lg) {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+    &__box:nth-child(1) {
+      text-align: center;
+
+      .title-hotline {
+        font-size: 14px;
+        @include mixin.reponsive(lg) {
+          font-size: 12px;
+        }
+      }
+
+      .hotline {
+        font-size: 18px;
+        color: red;
+        font-weight: bold;
+        @include mixin.reponsive(lg) {
+          font-size: 16px;
+        }
+      }
+    }
+
+    &__box:nth-child(2),
+    &__box:nth-child(3),
+    &__box:nth-child(4) {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+  }
+}
