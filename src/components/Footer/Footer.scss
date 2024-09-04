@@ -15,16 +15,26 @@
       list-style-type: none;
       margin: 0;
       padding: 0;
-      margin-bottom: 10px;
       padding: 25px;
 
       li {
         cursor: pointer;
+
+        p {
+
+          @include mixin.reponsive(lg) {
+            font-size: 14px;
+          }
+        }
       }
 
       li:nth-child(1) {
         font-weight: bold;
         font-size: 18px;
+
+        @include mixin.reponsive(lg) {
+          font-size: 16px;
+        }
       }
 
       @include mixin.reponsive(2xl) {
@@ -55,6 +65,10 @@
     .anticon {
       font-size: 20px;
       margin-right: 20px;
+
+      @include mixin.reponsive(lg) {
+        font-size: 18px;
+      }
     }
     
   }
@@ -66,5 +80,9 @@
     border-top: 1px solid #e0e0e0;
     background-color: var(--primary-color);
     color: white;
+
+    @include mixin.reponsive(lg) {
+      font-size: 12px;
+    }
   }
 }
