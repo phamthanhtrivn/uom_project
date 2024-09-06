@@ -1,4 +1,4 @@
-@use "../../scss/mixins" as mixin;
+@use '../../scss/mixins' as mixin;
 
 .account {
   margin: 50px 0;
@@ -23,10 +23,12 @@
 
   &__login {
     flex: 1;
-    padding: 30px 60px;
+    padding: 50px;
 
-    
-    
+    @include mixin.reponsive(md) {
+      width: 100%;
+      padding: 50px 0px;
+    }
 
     &--form {
       display: flex;
@@ -56,8 +58,10 @@
     border-left: 1px solid #ddd;
 
     @include mixin.reponsive(md) {
-      border: none;
+      border-left: none;
       border-top: 1px solid #ddd;
+      width: 100%;
+      padding: 50px 0px;
     }
 
     &--form {
@@ -82,7 +86,6 @@
   }
 
   .btn {
-
     &-submit {
       margin-top: 20px;
       font-weight: bold;
